@@ -26,7 +26,7 @@
 }
 
 .searchIcon {
-    font-size: 20px !important;
+    font-size: 20px;
     margin-left: 10px;
 
 }
@@ -49,7 +49,7 @@
     flex: 4; /* 4/12 parts of topbar will be taken by right topbar container */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; /* 	Items will have space before, between, and after them */
     color: white;
 }
 
@@ -60,6 +60,7 @@
 }
 
 .topbarIcons {
+    margin-top: 5px;
     display: flex;
 }
 
